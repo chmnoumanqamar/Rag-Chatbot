@@ -1,0 +1,28 @@
+Artificial Intelligence and Machine Learning Fundamentals
+
+1. Overview of Artificial Intelligence
+Artificial Intelligence (AI) refers to the simulation of human intelligence in machines that are programmed to think and learn like humans. The term may also be applied to any machine that exhibits traits associated with a human mind such as learning and problem-solving.
+
+2. Machine Learning and Its Main Types
+Machine Learning (ML) is a subset of AI that focuses on building applications that learn from data and improve their accuracy over time without being explicitly programmed to do so.
+The three main types of Machine Learning are:
+- Supervised Learning: The algorithm is trained on labeled datasets, meaning the input data is paired with the correct output. Common algorithms include Linear Regression, Decision Trees, and Support Vector Machines.
+- Unsupervised Learning: The algorithm discovers hidden patterns or data groupings without human intervention using unlabeled data. Common techniques include K-Means Clustering and Principal Component Analysis (PCA).
+- Reinforcement Learning: An agent learns to make decisions by taking actions in an environment to achieve maximum cumulative reward through trial and error.
+
+3. Deep Learning and Neural Networks
+Deep Learning is a specialized branch of Machine Learning inspired by the structure and function of the human brain. It uses Artificial Neural Networks with multiple hidden layers (hence "deep") to model complex non-linear relationships in data.
+Convolutional Neural Networks (CNNs) are widely used for computer vision and image classification. Recurrent Neural Networks (RNNs) and Transformers are used for sequential data and natural language processing.
+
+4. Natural Language Processing (NLP)
+Natural Language Processing is the domain of AI concerned with giving computers the ability to understand text and spoken words in much the same way human beings can.
+Modern NLP relies heavily on the Transformer architecture introduced in the 2017 paper "Attention Is All You Need". Large Language Models (LLMs) such as GPT-4, LLaMA, and Claude are trained on massive text corpora to perform text generation, summarization, translation, and question answering.
+
+5. Retrieval-Augmented Generation (RAG)
+Retrieval-Augmented Generation (RAG) is an AI architecture that enhances the output of Large Language Models by referencing an authoritative knowledge base outside of its training data sources before generating a response.
+RAG solves two critical problems in LLMs:
+- Hallucination: Grounding answers strictly in retrieved factual context.
+- Knowledge cutoff: Enabling models to answer questions using up-to-date or proprietary private documents without retraining the model.
+
+6. Python in AI Development
+Python is the most popular programming language for AI and Data Science. It was created by Guido van Rossum and first released in 1991. Python's popularity in AI is driven by its clear syntax and a rich ecosystem of libraries such as NumPy, Pandas, Scikit-Learn, PyTorch, TensorFlow, ChromaDB, and LangChain.
